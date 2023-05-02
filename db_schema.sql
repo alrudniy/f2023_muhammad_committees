@@ -11,6 +11,7 @@ faculty_name VARCHAR(255));
 
 CREATE TABLE faculty_committee(
 committee_code VARCHAR(255) ,
+faculty_name VARCHAR(255)
 faculty_email VARCHAR(255),
 faculty_start_semester VARCHAR(255),
 membership_type VARCHAR(255),

@@ -12,7 +12,7 @@
       </tr>
       {% for faculty in faculty_list %}
       <tr>
-        <td>{{ faculty.faculty_email }}</td>
+        <td> <a href="edit_faculty/{{ faculty.faculty_email }}"> {{ faculty.faculty_email }} </a> </td>
         <td>{{ faculty.faculty_name }}</td>
       </tr>
       {% endfor %}

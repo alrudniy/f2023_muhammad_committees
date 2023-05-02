@@ -44,4 +44,4 @@ def all_committees():
 @app.route("/all_time_faculty_participation")
 def all_time_faculty_participation():
     # Connect to the database
-    conn = sqlite3.connect("faculty_committees.
+    conn = sqlite3.connect("faculty_committees.")
